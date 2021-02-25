@@ -1,0 +1,74 @@
+/* your styles go here */
+
+/*-----------------NAVBAR--------------------*/
+
+.logo-size {
+    max-width: 1.8rem !important;
+}
+
+.nav-link:hover {
+    color: #746657 !important;
+}
+
+.nav-item {
+    font-weight: 600;
+}
+
+/*----------------ABOUT ME--------------------------*/
+
+.heading {
+    color: #2B282C !important;
+}
+
+.heading::after{
+    width: 260px;
+    height: 2px;
+    background: #746657 !important;
+}
+
+/*----------------------------SLIDE--------------------------*/
+
+.carousel-control-prev,
+.carousel-control-next {
+    color: #0F2027!important;
+}
+
+.card-text, .card-title {
+    color: #0F2027 !important;
+}
+
+/*---------------------------CONTACT-------------------------*/
+
+.contact-bg {
+    background-image: url('../img/contact-bg.svg');
+}
+
+.email {
+    background-color: #0F2027!important;
+}
+
+.email:hover {
+    background-color: #746657 !important;
+}
+
+.btn-outline-primary {
+    background-color: #6C63FF!important;
+    border-color: #6C63FF!important;
+    color: #FFFFFF;
+}
+
+.btn-outline-primary:hover {
+    background-color: #0F2027!important;
+    border-color: #0F2027 !important;
+}
+
+/*------------------------MODAL---------------------------------*/
+
+.modal-bg {
+    background-color:ivory;
+}
+
+.modal h2 {
+    color: #2B282C;
+    text-align: center;
+}
